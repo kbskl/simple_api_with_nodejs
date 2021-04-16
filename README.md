@@ -22,7 +22,9 @@ LOGIN_JWT_TOKEN=123456789
 
 ## Usage
 ```note
-Note: What is done in this code is not logical. Because in this code, it is aimed to show the necessary operations for the restful service. So please focus only on how the core transactions and login system work.
+Note: What is done in this code is not logical. 
+Because in this code, it is aimed to show the necessary operations for the restful service. 
+So please focus only on how the core transactions and login system work.
 ```
 
 Transactions that can be done with end points;
@@ -34,7 +36,8 @@ Transactions that can be done with end points;
 6. Logged in user with admin authorization deletes the user whose id is entered => DELETE - localhost: 3000 / api / users /: id 
 
 ```note
-Note: An end point is not created to give admin authorization. You can manually set the isAdmin option to true in the database.
+Note: An end point is not created to give admin authorization. 
+You can manually set the isAdmin option to true in the database.
 ```
 
 ## License
